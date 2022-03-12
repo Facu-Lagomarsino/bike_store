@@ -1,0 +1,28 @@
+.cardContainer {
+    padding: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #111;
+    margin: 2rem;
+    background-color: transparent;
+}
+
+.card-img {
+    height: 13rem;
+    width: 100%;
+}
+
+.card-title {
+    color: #fff;
+}
+
+.card-body {
+    background-color: #111;
+}
+
+

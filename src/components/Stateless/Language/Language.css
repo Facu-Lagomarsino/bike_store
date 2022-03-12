@@ -1,0 +1,27 @@
+/* Selector de Lenguajes */
+.myHeader .selectLanguage {
+    z-index: 1000;
+}
+
+.selectLanguage select {
+    background: transparent;
+    border-style: none;
+    color: #b0dd0b;
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 50rem;
+    margin-top: 2.8rem;
+    opacity: 0.7;
+}
+
+.selectLanguage select:hover {
+    color: #fff;
+}    
+
+.selectLanguage select option {
+    background: #111;
+    border-style: none;
+ 
+}

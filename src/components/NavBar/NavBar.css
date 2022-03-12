@@ -1,0 +1,50 @@
+.myHeader {
+    padding: 0;
+    background: #111;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.myHeader button {
+   visibility: hidden;
+}
+
+/* Name e-commerce */
+.title {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title h1 {
+    padding-left: 7.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: fixed;
+    z-index: 100;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 3rem;
+}
+
+.title h1:hover {
+    color: #b0dd0b;
+}    
+/* Menu Ham */
+.menu img {
+    display: inline-block;
+    visibility: visible;
+    width: 27px;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    position: fixed;
+    background: transparent;
+    top: 3rem;
+}
+
+
+

@@ -1,0 +1,46 @@
+/* Menu Nav */
+.menuNav {
+    display: flex;
+}
+
+.menuNav a {
+    width: calc(500px / 4);
+    height: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #cbf442; 
+}
+.menuNav a:hover {
+    color: #b0dd0b ;
+}
+
+#menuNav {
+    top: 4rem;
+    z-index: 100;
+    position: fixed;
+}
+
+#menuNav img {
+    width: 30px;
+    cursor: pointer;
+}
+
+#menuNav {
+    display: block;
+    right: 6rem;
+}
+
+.slide {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(500px / 4);
+    height: 2px;
+    background: #cbf442;
+    box-shadow: 0 6px 10px #111;
+    transition: 2s;
+    top: 1.9rem;
+}

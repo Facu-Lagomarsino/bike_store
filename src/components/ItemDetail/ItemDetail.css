@@ -1,0 +1,16 @@
+.cards img {
+    display: flex;
+    height: 40rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.back {
+    color: #b0dd0b;
+    text-decoration: none;
+}
+
+.back:hover {
+    color: #111;
+}
+

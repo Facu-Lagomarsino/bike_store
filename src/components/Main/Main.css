@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Contenido */
+.banner {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    animation: zoomIn;
+    animation-duration: 0.5s;
+    background-color: #111;
+    opacity: 0.9;
+}
+
+.welcomeBanner {
+    background: linear-gradient(135deg, #eeffc6 0%,#d9ed8b 38%,#cbf442 72%,#b0dd0b 100%);   
+    height: 100vh;
+    width: 50%;
+}
+
+.welcome {
+    height: 92vh;
+    width: 100%;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4rem;
+    padding-top: 6rem;
+    animation: zoomIn;
+    animation-duration: 0.5s;
+    color: #111;
+}
+
+.down p {
+    position: absolute;
+    text-align: center;
+    margin: 0rem 1rem 0rem auto;
+    border-bottom: 1px solid #b0dd0b;
+    text-decoration: none;
+    cursor: pointer;
+    color: #b0dd0b;
+    width: 17%;
+    top: 70rem;
+    right: 15rem;
+    z-index: 10;
+}
+
+.down p:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.down img {
+    width: 35px;
+    cursor: pointer;
+    position: absolute;
+    left: 64rem;
+    top: 70rem;
+}
+
+
+.down img:hover {
+    transform: scale(0.9);           
+    transition: 0.2s;
+}
+
+/* Video */
+.video {
+    margin-top: 1.8rem;
+    background: url('../../img/bike.mp4');
+}
+
+.video h1 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0rem;
+    background: #111;
+    color: #cbf442;
+    animation: zoomIn;
+    animation-duration: 0.5s;
+}
+
+.video video {
+    width: 100%;
+    height: 40vh;
+    opacity: 0.9;
+    object-fit: cover;
+}
+
+.video p {
+    text-align: center;
+    font-size: 9rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px;  
+}
+
+section {
+    background: rgb(181, 179, 179);
+    padding-bottom: 2rem;
+}
+

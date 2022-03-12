@@ -1,0 +1,23 @@
+.btns {
+    width: 2rem;
+    height: 2rem;
+    color: #d9ed8b;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid;
+}
+
+.add button {
+    display: block;
+    background: transparent;
+    border: 2px solid #d9ed8b;
+    border-radius: 8px;
+    color: #111;
+    margin-top: 0.5rem;
+    width: 6rem;
+    height: 1.8rem;
+}
+
+.add button:hover {
+    color: #d9ed8b;
+}
