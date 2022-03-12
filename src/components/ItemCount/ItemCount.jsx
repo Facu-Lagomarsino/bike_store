@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Button from "../Stateless/Button/Button";
 import { Link } from "react-router-dom";
 import "./ItemCount.css";
 
@@ -24,7 +23,7 @@ function ItemCount({ stock, onAdd }) {
     const add = () => {
        onAdd(count)
        setShow(false)
-       console.log(`cantidad agregada ${count}`)
+       console.log(`added quantity ${count}`)
     }
       
     return (
@@ -43,7 +42,7 @@ function ItemCount({ stock, onAdd }) {
 
                     :
                     
-                    (<Link to="/cart"><button className="add">Check cart</button></Link> )} 
+                    (<Link to="/cart" className="add" ><button>Check cart</button></Link> )} 
                 
                </div>
                 <p>Stock ={stock}</p>  

@@ -3,13 +3,16 @@ label {
     font-size: 4rem;
     font-weight: bold;
     justify-content: center;
+    padding-top: 7rem;
 }
 
 .form {
     padding: 30px 40px;
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
     display: flex;
+    justify-content: center;
 }
 
 .form input {
@@ -32,24 +35,15 @@ label {
 
 .form h1 {
     font-family: "Oswald", sans-serif;
-    font-weight: bold;
+    text-align: center;
 }
-
-/* p {
-    font-size: 13px;
-    color: yellow;
-    padding: 0px 10px;
-    position: fixed;
-    right: 3.9rem;
-    top: 1.8rem;
- } */
 
 .cardDetail {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin: 2rem;
+    padding-top: 7rem;
 }
 
 .cardDetail dl, ol, ul {

@@ -1,22 +1,34 @@
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 import "./Button.css";
 
 
-const Button = ({ add }) => {
+const Button = () => {
     
-    return <button className="btns" style={{ color: "black" }}  onClick={add}>Go to Cart!</button>
+    return <button style={{ color: "black" }}>Join!</button>
 }
 
 const ButtonChange = ({ handleChange }) => {
 
-    return <button className="btns" onClick={handleChange}>Add Cart</button>
+    return   <Link to="/" onClick={handleChange} style={{   
+                    display: "block",
+                    background: "transparent",
+                    border: "2px solid #d9ed8b",
+                    borderRadius: "8px",
+                    color: "#111",
+                    marginTop: "0.5rem",
+                    width: "8rem",
+                    height: "1.8rem",
+                    textAlign: "center"
+                }}>Go to Home!</Link>
+         
 }
 
 const GoToCart = () => {
     const [ buttonType, setButtonType ] = useState("button")
 
     const handleChange = () => {
-        setButtonType("input")
+        setButtonType("button")
     }
 
     return (
@@ -25,13 +37,13 @@ const GoToCart = () => {
         <>
 
         { 
+
             buttonType === "button" ?
             <ButtonChange handleChange={handleChange} />
 
             : 
 
             <Button />
-        
         
         }
 

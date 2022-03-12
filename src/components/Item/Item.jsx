@@ -13,7 +13,6 @@ function item({ description, image, id }) {
                 <img src={image} className="card-img" alt="Bike" />
                 <div className="card-body">
                     <h5 className="card-title">{description}</h5>
-                    {/* <ItemCount stock={stock} cart={cart} setCart={setCart} /> */}
                     <Link to={`/item/${id}`} style={{display: "inline-block", textDecoration: "none", color: "#d9ed8b"}}>DETAIL!</Link>
                 </div> 
             </div> 

@@ -7,6 +7,15 @@
     border: 2px solid;
 }
 
+.btnWelcome {
+    width: 6rem;
+    height: 2rem;
+    color: #d9ed8b;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid;
+}
+
 .add button {
     display: block;
     background: transparent;
@@ -20,4 +29,9 @@
 
 .add button:hover {
     color: #d9ed8b;
+}
+
+Link {
+    text-decoration: none;
+    text-emphasis: none;
 }

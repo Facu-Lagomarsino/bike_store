@@ -7,6 +7,7 @@ import {
     addDoc
 } from "firebase/firestore";
 
+import Video from '../../img/bike.mp4';
 import "./Cart.css";
 
 
@@ -170,11 +171,52 @@ const Cart = () => {
      
 
             </> 
+
             :
+
             <> 
+
+                <div>
+                    <video src={Video} 
+                    style={{ 
+                            marginTop: "0",
+                            width: "100%",
+                            height: "40vh",
+                            opacity: "0.9",
+                            objectFit: "cover"
+                                }} 
+                    type="video/mp4" 
+                    autoPlay muted loop>
+                    </video>         
+                    <p style={{
+                    textAlign: "center",
+                    fontSize: "9rem",
+                    fontWeight: "bold",
+                    width: "100%",
+                    margin: "0px" 
+                    }}>HEY BIKE!</p>
+                </div> 
+
                 <label>There is no product go buy now!</label>
-                {console.log(cartList)}
-                <br />
+               
+                <Link to="/" style={{ 
+                    display: "flex", 
+                    justifyContent: "center",
+                    alignItems: "center", 
+                    color: "black",
+                    height: "2rem",
+                    widows: "100%",
+                    textDecoration: "none",
+                    padding: "1rem" 
+                }}>
+
+                    <span style={{
+                        background: "transparent",
+                        border: "none",
+                        margin: "0"
+                    }}>' Click to go home and see our product catalog '</span> 
+                </Link>
+
             </> 
         
     }

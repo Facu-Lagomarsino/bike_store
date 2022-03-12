@@ -33,26 +33,41 @@ function ItemDetailContainer() {
 
   return (
     <>
-      {
-        loading
 
-        ?
+      <div style={{ height: "84vh", width: "100%"}}>
 
-        <Spinner animation="border" style={{ justifyContent: "center", margin: "5rem", position: "absolute", width: "5rem", height: "5rem" }} />
+          
+        {
+          loading
 
-        :
+          ?
 
-        <>
+          <Spinner animation="border" 
+          style={{
+            display: "flex", 
+            justifyContent: "center", 
+            margin: "5rem", 
+            position: "fixed",
+            top: "20rem", 
+            right: "50%",
+            width: "5rem", 
+            height: "5rem" }} />
 
-        <div className="container">
-          <Link to={`/item/${id}`} style={{ display: "block", paddingBottom: "1rem", color: "black", textDecoration: "none" }}>
-            <ItemDetail product={ product } />
-          </Link>
-        </div>
+          :
 
-        </>
-        
-    }
+          <>
+
+            <div className="container">
+              <Link to={`/item/${id}`} style={{ display: "block", paddingBottom: "1rem", color: "black", textDecoration: "none" }}>
+                <ItemDetail product={ product } />
+              </Link>
+            </div>
+
+          </>
+          
+        }
+
+      </div>
 
     </>
   );

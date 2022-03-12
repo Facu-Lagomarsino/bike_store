@@ -12,7 +12,9 @@ const footer = () => {
 
         <footer className="myFooter">
             <h1>MOVE BY BICYCLE!</h1>
-            <img className="logo" src={MyLogo} alt="Logo"/>
+            <div className="logo">
+                <img src={MyLogo} alt="Logo"/>
+            </div> 
             <div className="networks">
                 <a href="https://www.google.com/"><img src={Maps} alt="Ubicación" /></a>
                 <a href="https://www.instagram.com/facu.lagomarsino/"><img src={Instagram} alt="Instagram" /></a>
