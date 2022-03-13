@@ -8,22 +8,19 @@ function ItemCount({ stock, onAdd }) {
 
     const more = () => {
         if (count < stock) {
-            setCount(count + 1)
-            console.log(count)
+            setCount(count + 1)       
         }
     }
 
     const less = () => {
         if (count > 1) {
             setCount(count - 1)
-            console.log(count)
         }
     }
 
     const add = () => {
        onAdd(count)
        setShow(false)
-       console.log(`added quantity ${count}`)
     }
       
     return (

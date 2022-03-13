@@ -1,8 +1,16 @@
-.cards img {
+.cards {
     display: flex;
-    height: 40rem;
-    width: 100%;
     justify-content: center;
+    margin-top: 4rem;
+}
+
+.cards img {
+    height: 40rem;
+    width: 45rem;
+}
+
+.cards p {
+    margin-top: 3rem;
 }
 
 .back {

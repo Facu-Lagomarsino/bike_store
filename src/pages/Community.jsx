@@ -17,13 +17,12 @@ import Facebook from "../img/facebook.png";
 
 const Community = () => {
   const [show, setShow] = useState(true)
-  const [id, setId] = useState("")
   const [dataForm, setDataForm] = useState({
       email: "",
       phone: "",
       name: ""
   })
-  const { cartList, deleteList, priceTotal, deleteFromCart } = useCartContext()
+  const { cartList, deleteList, priceTotal } = useCartContext()
 
   const buys = async (e) => {
       e.preventDefault()  
@@ -50,7 +49,7 @@ const Community = () => {
       const db = getFirestore();
       const ordersCollection = collection (db, "orders")
       await addDoc( ordersCollection, orden)
-      .then(resp => setId(resp.id)) 
+      
 
       
       .catch(err => console.log(err))

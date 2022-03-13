@@ -26,6 +26,7 @@ const ItemDetail = ({ product }) => {
                 <img src={image} alt="Bike"/>
                 <ItemCount stock={stock} onAdd={onAdd}/>
                 <strong>$ {price}</strong>
+            </div>
                 
                 <Link to="/" style={{ 
                     display: "flex", 
@@ -45,7 +46,6 @@ const ItemDetail = ({ product }) => {
                     }}>' Click to go home and see our product catalog '</span> 
                 </Link>
 
-            </div>
         </>
 
     )

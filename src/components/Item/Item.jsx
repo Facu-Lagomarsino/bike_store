@@ -1,4 +1,3 @@
-/* import ItemCount from "../../components/ItemCount/ItemCount"; */
 import { Link } from "react-router-dom";
 import './Item.css'
 
