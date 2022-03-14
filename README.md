@@ -38,7 +38,7 @@ Dejo las dependencias de librerías:
 
 El deploy fue realizado en https://app.netlify.com
 
-Link del proyecto: stupefied-engelbart-2ae678.netlify.app
+Link del proyecto: https://stupefied-engelbart-2ae678.netlify.app/
 
   IMPORTANTE! las paginas estan creadas para futuro contenido de la app simplemente al igual que la función de lenguaje.
 
@@ -84,6 +84,6 @@ I leave the library dependencies:
 
 El deployment fue realizado en https://app.netlify.com
 
-Enlace del proyecto: https://clever-cori-09e424.netlify.app
+Enlace del proyecto: https://stupefied-engelbart-2ae678.netlify.app/
 
   IMPORTANT! the pages are created for future content of the app just like the language function.
