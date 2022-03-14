@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b299c0c4.chunk.css",
+    "main.js": "/static/js/main.f8ef92ee.chunk.js",
+    "main.js.map": "/static/js/main.f8ef92ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7b821524.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7b821524.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.305c8721.chunk.js": "/static/js/2.305c8721.chunk.js",
+    "static/js/2.305c8721.chunk.js.map": "/static/js/2.305c8721.chunk.js.map",
+    "static/js/3.bf37cd4e.chunk.js": "/static/js/3.bf37cd4e.chunk.js",
+    "static/js/3.bf37cd4e.chunk.js.map": "/static/js/3.bf37cd4e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.b299c0c4.chunk.css.map": "/static/css/main.b299c0c4.chunk.css.map",
+    "static/js/2.305c8721.chunk.js.LICENSE.txt": "/static/js/2.305c8721.chunk.js.LICENSE.txt",
+    "static/media/bicicletas.996ab84e.jpeg": "/static/media/bicicletas.996ab84e.jpeg",
+    "static/media/Main.css": "/static/media/bike.2c65d98b.mp4",
+    "static/media/cart1.f5fb2376.png": "/static/media/cart1.f5fb2376.png",
+    "static/media/close.28439f77.png": "/static/media/close.28439f77.png",
+    "static/media/hammenu.b68cfd69.png": "/static/media/hammenu.b68cfd69.png",
+    "static/media/lt.afb40286.png": "/static/media/lt.afb40286.png",
+    "static/media/perfil.d05188e1.JPG": "/static/media/perfil.d05188e1.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b821524.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.305c8721.chunk.js",
+    "static/css/main.b299c0c4.chunk.css",
+    "static/js/main.f8ef92ee.chunk.js"
+  ]
+}

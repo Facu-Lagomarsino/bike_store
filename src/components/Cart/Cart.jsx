@@ -71,7 +71,6 @@ const Cart = () => {
 
 
     return <div>
-            {id !== "" && `The order id is : ${id} ` }
             <br />
             {cartList.length !== 0 ?<>
                 {cartList.map(produ => <div className="cardDetail">
@@ -82,15 +81,15 @@ const Cart = () => {
                             <img style={{width:"80px", height:"auto"}}src={produ.product.image} alt="Bike" /> 
                             <div className="cancel">
                                 <button onClick={() => deleteFromCart(produ.product.id)} style={{   
-                                            display: "block",
-                                            background: "transparent",
-                                            border: "2px solid #d9ed8b",
-                                            borderRadius: "8px",
-                                            color: "#cbf442",
-                                            marginTop: "0.5rem",
-                                            width: "2rem",
-                                            height: "1.8rem"
-                                        }} >x</button>
+                                    display: "block",
+                                    background: "transparent",
+                                    border: "2px solid #d9ed8b",
+                                    borderRadius: "8px",
+                                    color: "#cbf442",
+                                    marginTop: "0.5rem",
+                                    width: "2rem",
+                                    height: "1.8rem"
+                                }} >x</button>
                             </div>       
                         </ul>
 
@@ -142,14 +141,14 @@ const Cart = () => {
                     </form>
                     <button onClick={deleteList} style={{   
                         display: "block",
-                                    background: "transparent",
-                                    border: "2px solid #d9ed8b",
-                                    borderRadius: "8px",
-                                    color: "#111",
-                                    marginTop: "0.5rem",
-                                    width: "8rem",
-                                    height: "1.8rem"
-                                }} >Empty cart!</button>
+                        background: "transparent",
+                        border: "2px solid #d9ed8b",
+                        borderRadius: "8px",
+                        color: "#111",
+                        marginTop: "0.5rem",
+                        width: "8rem",
+                        height: "1.8rem"
+                    }} >Empty cart!</button>
                 </div>  
 
                 <Link to="/" style={{ 
@@ -161,7 +160,7 @@ const Cart = () => {
                     widows: "100%",
                     textDecoration: "none",
                     padding: "1rem" 
-                    }}>
+                }}>
 
                     <p style={{
                         background: "transparent",
@@ -172,29 +171,30 @@ const Cart = () => {
 
             </> 
 
-            :
+:
 
-            <> 
+<> 
 
                 <div>
                     <video src={Video} 
                     style={{ 
-                            marginTop: "0",
-                            width: "100%",
-                            height: "40vh",
+                        marginTop: "0",
+                        width: "100%",
+                        height: "40vh",
                             opacity: "0.9",
                             objectFit: "cover"
-                                }} 
-                    type="video/mp4" 
-                    autoPlay muted loop>
+                        }} 
+                        type="video/mp4" 
+                        autoPlay muted loop>
                     </video>         
                     <p style={{
-                    textAlign: "center",
-                    fontSize: "9rem",
-                    fontWeight: "bold",
-                    width: "100%",
-                    margin: "0px" 
+                        textAlign: "center",
+                        fontSize: "9rem",
+                        fontWeight: "bold",
+                        width: "100%",
+                        margin: "0px" 
                     }}>HEY BIKE!</p>
+                <p style={{ display: "flex", justifyContent: "center", fontWeight: "bold"}}>{id !== "" && `The order id is : ${id} ` }</p>
                 </div> 
 
                 <label>There is no product go buy now!</label>
